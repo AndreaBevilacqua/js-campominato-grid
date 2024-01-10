@@ -1,0 +1,49 @@
+/* Generics */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+/* Utils */
+
+.contianer {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    padding: 0 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* Grid */
+
+#grid {
+    width: 500px;
+    height: 500px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
