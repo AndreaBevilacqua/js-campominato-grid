@@ -9,6 +9,11 @@
 body {
     font-family: sans-serif;
     background-color: aquamarine;
+    
+}
+
+main {
+    height: calc(100vh - 240px);
 }
 
 /* Utils */
@@ -35,6 +40,20 @@ button {
     border-radius: 5px;
 }
 
+footer {
+    height: 80px;
+    background-color: white;
+    line-height: 80px;
+    padding-left: 20px;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
 
 /* Grid */
 
