@@ -15,6 +15,7 @@ const createCell = (content) => {
     return cell;
 }
 
+/* DA CORREGGERE 
 button.addEventListener('click', () => {
     if(grid.classList.contains('d-none')) {
         grid.classList.remove('d-none');
@@ -22,6 +23,7 @@ button.addEventListener('click', () => {
         grid.classList.add('d-block');
     }
 })
+*/ 
 
 // Programma
 
